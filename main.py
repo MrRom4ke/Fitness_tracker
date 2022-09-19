@@ -1,7 +1,7 @@
 class Training:
     """ Общий класс для тренировок."""
     LEN_STEP = 0.65  # расстояние за один шаг.
-    M_IN_KM = 1000
+    M_IN_KM = 1000  # количество метров в 1 километре
 
     def __init__(self, action: int, duration: int, weight: int):
         """
